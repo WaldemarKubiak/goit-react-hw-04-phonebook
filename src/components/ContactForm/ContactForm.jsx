@@ -16,8 +16,8 @@ export const ContactForm = ({ onAddContact }) => {
 
   const handleOnSubmit = e => {
     e.preventDefault();
-    console.log('Name inputed by user:', name);
-    console.log('Number inputed by user:', number);
+    // console.log('Name inputed by user:', name);
+    // console.log('Number inputed by user:', number);
     onAddContact(name, number);
     resetForm();
   };
